@@ -6,6 +6,9 @@ A QA Agent answering COVID-19, smoking and [3rd keyword] related questions by us
 - [ ] Filtering out papers, and keeping only those that match our 3 _keyword criteria_<sup>Synonyms are counted as one word<sup>
 
 
+[View notebook using nbviewer instead of Google Colab (or Github).](https://nbviewer.org/github/danebencedavid/NLP-A-Agent/blob/master/main.ipynb)
+
+
 
 
 
