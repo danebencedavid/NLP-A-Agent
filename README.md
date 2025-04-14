@@ -8,7 +8,7 @@
 - ❓ Answers questions like:  
   > *"How does smoking affect COVID-19 mortality in patients with [3rd keyword]?"*  
 
-📌 Progress  
+## 📌 Progress  
 ✅ **Done**:  
 - [x] Getting the data (CORD19 `metadata.csv`)
 - [x] Extracting keywords (using `spaCy`) from paper abstracts
@@ -34,6 +34,9 @@
 - [ ] Graph-Powered Semantic Search
 - [ ] QA System Integration
 - [ ] Trend Analysis
+    - Detecting emerging topics and subtopics
+    - Sentiment analysis of the topics surrounding the keywords
+    - Identifying high-impact papers
     > *Tracking how keywords, topics, or research focus areas evolve in CORD19 dataset over time*
 
 📌[Preview Notebook](https://nbviewer.org/github/danebencedavid/NLP-A-Agent/blob/master/main.ipynb)
