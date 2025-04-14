@@ -17,9 +17,24 @@
 - [ ] Filtering papers matching:  
   - **`smoking OR tobacco`**  
   - **`COVID-19 OR SARS-CoV-2`**
-  - **`3rd keyword`** 
-
-
+  - **`3rd keyword`**
+- [ ] Preprocess for Graph DB
+- [ ] Design Graph DB Schema
+   - **`Nodes`**
+     - **`Paper`**
+     - **`Author`**
+     - **`Keyword`**
+     - **`Institution`**  
+   - **`Relationships`**
+     - **`Paper-CITES->Paper`**
+     - **`Paper-HAS_KEYWORD->Keyword`**
+     - **`Author-WROTE->Paper`**
+     - **`Author-AFFILIATED_WITH->Institution`**
+- [ ] Populate DB
+- [ ] Graph-Powered Semantic Search
+- [ ] QA System Integration
+- [ ] Trend Analysis
+    > *Tracking how keywords, topics, or research focus areas evolve in CORD19 dataset over time*
 
 📌[Preview Notebook](https://nbviewer.org/github/danebencedavid/NLP-A-Agent/blob/master/main.ipynb)
 
