@@ -1,5 +1,5 @@
 # 🦠 COVID-19 Research Agent 
-*A QA Agent answering COVID-19, smoking, and [3rd keyword] questions using **graph-powered** semantic search.* 
+*A QA Agent answering COVID-19, smoking, and Socioeconomic Status questions using **graph-powered** semantic search. While the word Socioeconomic Status is too precise of a term, its constituent terms such as poverty, income, education, social class, disadventage and inequality might be more effective for a semantic search.* 
 
 ## 🔍 Overview  
 🧠 **AI Agent** that:  
@@ -17,7 +17,7 @@
 - [ ] Filtering papers matching:  
   - **`smoking OR tobacco`**  
   - **`COVID-19 OR SARS-CoV-2`**
-  - **`3rd keyword`**
+  - **`Socioeconomic Status`**
 - [ ] Preprocess for Graph DB
 - [ ] Design Graph DB Schema
    - **`Nodes`**
