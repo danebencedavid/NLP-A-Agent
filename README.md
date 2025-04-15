@@ -1,12 +1,14 @@
 # 🦠 COVID-19 Research Agent 
-*A QA Agent answering COVID-19, smoking, and Socioeconomic Status questions using **graph-powered** semantic search. While the word Socioeconomic Status is too precise of a term, its constituent terms such as poverty, income, education, social class, disadventage and inequality might be more effective for a semantic search.* 
+*A QA Agent answering COVID-19, smoking, and diabetes related questions using **graph-powered** semantic search.*
+
+The first attempt is located in the main.ipynb, but another notebook file will be uploaded with a different approach.
 
 ## 🔍 Overview  
 🧠 **AI Agent** that:  
 - 🔎 Finds relevant papers via **semantic search** (abstracts/keywords).  
 - 🌐 Expands results using a **Neo4j graph DB** (citations/authors/keywords).  
 - ❓ Answers questions like:  
-  > *"How does smoking affect COVID-19 mortality in patients with [3rd keyword]?"*  
+  > *"How does smoking affect COVID-19 mortality in patients with diabetes?"*  
 
 ## 📌 Progress  
 ✅ **Done**:  
@@ -17,8 +19,9 @@
 - [ ] Filtering papers matching:  
   - **`smoking OR tobacco`**  
   - **`COVID-19 OR SARS-CoV-2`**
-  - **`Socioeconomic Status`**
+  - **`diabetes`**
 - [ ] Preprocess for Graph DB
+- [ ] Expanding the CORD19 dataset with papers that might match the 3 keyword criteria
 - [ ] Design Graph DB Schema
    - **`Nodes`**
      - **`Paper`**
