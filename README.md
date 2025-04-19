@@ -13,15 +13,21 @@ The first attempt is located in the main.ipynb, but another notebook file will b
 ## 📌 Progress  
 ✅ **Done**:  
 - [x] Getting the data (CORD19 `metadata.csv`)
-- [x] Extracting keywords (using `spaCy`) from paper abstracts
+- [x] Defining core terms for:
+  - **`smoking OR tobacco`**  
+  - **`COVID-19 OR SARS-CoV-2`**
+  - **`diabetes`**
+    
 
 ⏳ **In Progress**: 
+- [ ] Embedding core terms, and paper abstracts using [`BioBert v1.1`](https://huggingface.co/dmis-lab/biobert-v1.1)
+- [ ] Calculate cosine similarities between abstract embeddings and core term embeddings
 - [ ] Filtering papers matching:  
   - **`smoking OR tobacco`**  
   - **`COVID-19 OR SARS-CoV-2`**
   - **`diabetes`**
 - [ ] Preprocess for Graph DB
-- [ ] Expanding the CORD19 dataset with papers that might match the 3 keyword criteria
+- [ ] Expanding the CORD19 dataset with papers that might match the 3 keyword criteria using [`SemanticScholarReader`](https://github.com/run-llama/llama_index/tree/main/llama-index-integrations/readers/llama-index-readers-semanticscholar)
 - [ ] Design Graph DB Schema
    - **`Nodes`**
      - **`Paper`**
