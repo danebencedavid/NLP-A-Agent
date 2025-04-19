@@ -17,11 +17,11 @@ The first attempt is located in the main.ipynb, but another notebook file will b
   - **`smoking OR tobacco`**  
   - **`COVID-19 OR SARS-CoV-2`**
   - **`diabetes`**
+- [x] Embedding core terms, and paper abstracts using [`BioBert v1.1`](https://huggingface.co/dmis-lab/biobert-v1.1)
+- [x] Calculate cosine similarities between abstract embeddings and core term embeddings
     
 
 ⏳ **In Progress**: 
-- [ ] Embedding core terms, and paper abstracts using [`BioBert v1.1`](https://huggingface.co/dmis-lab/biobert-v1.1)
-- [ ] Calculate cosine similarities between abstract embeddings and core term embeddings
 - [ ] Filtering papers matching:  
   - **`smoking OR tobacco`**  
   - **`COVID-19 OR SARS-CoV-2`**
@@ -48,7 +48,9 @@ The first attempt is located in the main.ipynb, but another notebook file will b
     - Identifying high-impact papers
     > *Tracking how keywords, topics, or research focus areas evolve in CORD19 dataset over time*
 
-📌[Preview Notebook](https://nbviewer.org/github/danebencedavid/NLP-A-Agent/blob/master/main.ipynb)
+📌[Preview main.ipynb](https://nbviewer.org/github/danebencedavid/NLP-A-Agent/blob/master/main.ipynb)
+📌[Preview nlp-agent.ipynb](https://nbviewer.org/github/danebencedavid/NLP-A-Agent/blob/master/npl_agent.ipynb)
+
 
 
 
