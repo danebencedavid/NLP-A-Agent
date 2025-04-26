@@ -17,15 +17,15 @@ The first attempt is located in the main.ipynb, but another notebook file will b
   - **`smoking OR tobacco`**  
   - **`COVID-19 OR SARS-CoV-2`**
   - **`diabetes`**
-- [x] Embedding core terms, and paper abstracts using [`BioBert v1.1`](https://huggingface.co/dmis-lab/biobert-v1.1)
+- [x] Embedding core terms, and paper abstracts
 - [x] Calculate cosine similarities between abstract embeddings and core term embeddings
-    
-
-⏳ **In Progress**: 
-- [ ] Filtering papers matching:  
+- [x] Filtering papers matching:  
   - **`smoking OR tobacco`**  
   - **`COVID-19 OR SARS-CoV-2`**
   - **`diabetes`**
+
+⏳ **In Progress**: 
+
 - [ ] Preprocess for Graph DB
 - [ ] Expanding the CORD19 dataset with papers that might match the 3 keyword criteria using [`SemanticScholarReader`](https://github.com/run-llama/llama_index/tree/main/llama-index-integrations/readers/llama-index-readers-semanticscholar)
 - [ ] Design Graph DB Schema
