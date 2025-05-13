@@ -1,7 +1,7 @@
 # 🦠 COVID-19 Research Agent 
 *A QA Agent answering COVID-19, smoking, and diabetes related questions using **graph-powered** semantic search.*
 
-The first attempt is located in the main.ipynb, but another notebook file will be uploaded with a different approach.
+The first attempt is located in the main.ipynb, but another notebook file is uploaded with a different approach.
 
 ## 🔍 Overview  
 🧠 **AI Agent** that:  
@@ -23,12 +23,9 @@ The first attempt is located in the main.ipynb, but another notebook file will b
   - **`smoking OR tobacco`**  
   - **`COVID-19 OR SARS-CoV-2`**
   - **`diabetes`**
-
-⏳ **In Progress**: 
-
-- [ ] Preprocess for Graph DB
-- [ ] Expanding the CORD19 dataset with papers that might match the 3 keyword criteria using [`SemanticScholarReader`](https://github.com/run-llama/llama_index/tree/main/llama-index-integrations/readers/llama-index-readers-semanticscholar)
-- [ ] Design Graph DB Schema
+- [x] Preprocess for Graph DB
+- [x] Expanding the CORD19 dataset with papers that might match the 3 keyword criteria using [`SemanticScholarReader`](https://github.com/run-llama/llama_index/tree/main/llama-index-integrations/readers/llama-index-readers-semanticscholar)
+- [x] Design Graph DB Schema
    - **`Nodes`**
      - **`Paper`**
      - **`Author`**
@@ -38,13 +35,15 @@ The first attempt is located in the main.ipynb, but another notebook file will b
      - **`Paper-CITES->Paper`**
      - **`Paper-HAS_KEYWORD->Keyword`**
      - **`Author-WROTE->Paper`**
-     - **`Author-AFFILIATED_WITH->Institution`**
+
+⏳ **In Progress**:
+
 - [ ] Populate DB
 - [ ] Graph-Powered Semantic Search
 - [ ] QA System Integration
 
-📌[Preview main.ipynb](https://nbviewer.org/github/danebencedavid/NLP-A-Agent/blob/master/main.ipynb)
 📌[Preview nlp-agent.ipynb](https://nbviewer.org/github/danebencedavid/NLP-A-Agent/blob/master/npl_agent.ipynb)
+📌[Embedding vector visualization](https://projector.tensorflow.org/?config=https://gist.githubusercontent.com/danebencedavid/3539ae71665798e4f64ce6f1f52049ec/raw/a06f9f2c20ca1fab00b4940d2f979375163ac3d1/config.json)
 
 
 
