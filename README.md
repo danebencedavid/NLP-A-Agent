@@ -42,11 +42,6 @@ The first attempt is located in the main.ipynb, but another notebook file will b
 - [ ] Populate DB
 - [ ] Graph-Powered Semantic Search
 - [ ] QA System Integration
-- [ ] Trend Analysis
-    - Detecting emerging topics and subtopics
-    - Sentiment analysis of the topics surrounding the keywords
-    - Identifying high-impact papers
-    > *Tracking how keywords, topics, or research focus areas evolve in CORD19 dataset over time*
 
 📌[Preview main.ipynb](https://nbviewer.org/github/danebencedavid/NLP-A-Agent/blob/master/main.ipynb)
 📌[Preview nlp-agent.ipynb](https://nbviewer.org/github/danebencedavid/NLP-A-Agent/blob/master/npl_agent.ipynb)
