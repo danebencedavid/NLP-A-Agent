@@ -42,8 +42,11 @@ The first attempt is located in the main.ipynb, but another notebook file is upl
 - [ ] Graph-Powered Semantic Search
 - [ ] QA System Integration
 
-📌[Preview nlp-agent.ipynb](https://nbviewer.org/github/danebencedavid/NLP-A-Agent/blob/master/npl_agent.ipynb)
+📌[Preview embs.ipynb](https://nbviewer.org/github/danebencedavid/NLP-A-Agent/blob/master/embs.ipynb)
 📌[Embedding vector visualization](https://projector.tensorflow.org/?config=https://gist.githubusercontent.com/danebencedavid/3539ae71665798e4f64ce6f1f52049ec/raw/a06f9f2c20ca1fab00b4940d2f979375163ac3d1/config.json)
+📌[Preview agent.ipynb](https://nbviewer.org/github/danebencedavid/NLP-A-Agent/blob/master/agent.ipynb)
+
+
 
 
 
