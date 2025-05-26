@@ -33,17 +33,13 @@ The first attempt is located in the main.ipynb, but another notebook file is upl
      - **`Institution`**  
    - **`Relationships`**
      - **`Paper-CITES->Paper`**
-     - **`Paper-HAS_KEYWORD->Keyword`**
      - **`Author-WROTE->Paper`**
-
-⏳ **In Progress**:
-
-- [ ] Populate DB
-- [ ] Graph-Powered Semantic Search
-- [ ] QA System Integration
+- [x] Populate DB
+- [x] Graph-Powered Semantic Search
+- [x] QA System Integration
 
 📌[Preview embs.ipynb](https://nbviewer.org/github/danebencedavid/NLP-A-Agent/blob/master/embs.ipynb)  
-📌[Embedding vector visualization](https://gist.githubusercontent.com/danebencedavid/3539ae71665798e4f64ce6f1f52049ec/raw/53d4f98de9aa6e8409ae53e0aadf341507c0b153/config.json)  
+📌[Embedding vector visualization](https://projector.tensorflow.org/?config=https://gist.githubusercontent.com/danebencedavid/3539ae71665798e4f64ce6f1f52049ec/raw/b44d38c9a57dc7f889652836d77b76d56f1405d8/config.json)  
 📌[Preview agent.ipynb](https://nbviewer.org/github/danebencedavid/NLP-A-Agent/blob/master/agent.ipynb)
 
 
